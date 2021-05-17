@@ -1,0 +1,15 @@
+/* 
+    Document   : meinCSS
+    Created on : 19.03.2013, 07:47:56
+    Author     : trainer
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.root { 
+    -fx-background-color: blue;
+}
+.button{
+   -fx-background-color: red; 
+}
+

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="200" prefWidth="320" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/16" fx:controller="javafxfxmltextgestaltung.SampleController">
+    <children>
+        <Button fx:id="button" layoutX="126" layoutY="90" onAction="#handleButtonAction" text="OK" />
+        <Label fx:id="lbl" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <Text fill="#c64a4a" fontSmoothingType="LCD" layoutX="126.0" layoutY="174.0" opacity="0.75" strokeType="INSIDE" strokeWidth="10.0" text="Text" wrappingWidth="81.13671875" />
+    </children>
+</AnchorPane>

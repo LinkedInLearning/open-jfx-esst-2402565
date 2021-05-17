@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.collections.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" focusTraversable="false" opacity="0.94" prefHeight="417.0" prefWidth="320.0" styleClass="root" xmlns:fx="http://javafx.com/fxml" fx:controller="javafxbremsweg.SampleController">
+  <children>
+    <Button id="button" layoutX="60.0" layoutY="344.0" onAction="#handleButtonAction" text="Bremsweg berechnen" />
+    <Label id="label2" layoutX="147.0" layoutY="160.0" minHeight="16.0" minWidth="69.0" />
+    <Button layoutX="206.0" layoutY="344.0" mnemonicParsing="false" onAction="#handleButton2Action" text="Ende" />
+    <TextField fx:id="textField1" layoutX="60.0" layoutY="74.0" onAction="#handleTextFieldAction" prefWidth="200.0" promptText="0">
+      <tooltip>
+        <Tooltip opacity="0.83" text="Die Geschwindigkeit als ganze Zahl." />
+      </tooltip>
+    </TextField>
+    <Label id="label3" layoutX="60.0" layoutY="39.0" text="Gefahrene Geschwindigkeit (km/h)" />
+    <CheckBox fx:id="chkBox1" layoutX="61.0" layoutY="215.0" mnemonicParsing="false" selected="true" text="Verzögerung einbeziehen">
+      <tooltip>
+        <Tooltip opacity="0.83" text="Bis zum Auslösen der Bremse tritt normalerweiese eine Verzögerung auf. Soll diese miteinbezogen werden?" />
+      </tooltip>
+    </CheckBox>
+    <Label fx:id="label1" layoutX="61.0" layoutY="247.0" />
+    <ChoiceBox fx:id="choiceBox1" layoutX="37.0" layoutY="113.0">
+      <items>
+        <FXCollections fx:factory="observableArrayList">
+          <String fx:value="Trockene Fahrbahn - normal" />
+          <String fx:value="Trockene Fahrbahn - Gefahrenbremsung" />
+          <String fx:value="Nasse Fahrbahn" />
+          <String fx:value="Eis" />
+        </FXCollections>
+      </items>
+      <tooltip>
+        <Tooltip minWidth="200.0" opacity="0.81" text="Der Untergrund bei der Bremsung" />
+      </tooltip>
+    </ChoiceBox>
+    <Label layoutX="60.0" layoutY="386.0" text="(c) RJS EDV-KnowHow - www.rjs.de" />
+    <TextArea fx:id="textArea1" disable="true" editable="false" layoutX="37.0" layoutY="279.0" opacity="0.54" prefHeight="65.0" prefWidth="249.0" visible="false" wrapText="true" />
+  </children>
+  <stylesheets>
+    <URL value="@meinCSS.css" />
+  </stylesheets>
+</AnchorPane>

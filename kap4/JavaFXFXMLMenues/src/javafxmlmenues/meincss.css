@@ -1,0 +1,18 @@
+/* 
+    Document   : meincss
+    Created on : 20.03.2013, 08:11:29
+    Author     : trainer
+    Description:
+        Purpose of the stylesheet follows.
+*/
+.button{
+   -fx-background-color: blue; 
+   -fx-text-fill:yellow;
+}
+.label{
+   -fx-background-color: yellow; 
+   -fx-text-fill:blue;
+}
+#lb2{
+   -fx-text-fill:red;
+}
