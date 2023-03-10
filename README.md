@@ -1,7 +1,8 @@
 # Grundkurs OpenJFX/JavaFX
-Dies ist das Repository für den **LinkedIn Learning**-Kurs "Grundkurs OpenJFX/JavaFX". Der vollständige Kurs ist bei [LinkedIn Learning](https://www.linkedin.com/learning/) verfügbar.
 
-![lil-tn-url]
+Dies ist das Repository für den **LinkedIn Learning** Kurs `Grundkurs OpenJFX/JavaFX`. Den gesamten Kurs finden Sie auf [LinkedIn Learning][lil-course-url].
+
+![COURSENAME][lil-thumbnail-url] 
 
 ## Über diesen Kurs
 Zu Beginn seines Kurses erklärt Ralph Steyer die notwendigen Voraussetzungen,Downloads und Konfiguration, damit Sie OpenJFX bzw. JavaFX verwenden können. Ebenso werden  das Umfeld und das Verhältnis zwischen JavaFX und OpenJFX geklärt. Mit einer ersten Applikation und dem Deployen schließt der Einstieg ab, um dann FXML und den Sceen Builder in den Fokus zu stellen. Danach wechselt Ralph Steyer in die Java-Ebene und erläutert das Erstellen einer GUI rein in der Java-Ebene, um in der Folge FXML mit Java zu verknüpfen und mittels eines MVC-Konzepts die View (XML) mit der Programmlogin in Java zu verbinden. Eine genauere Betrachtung des Sceen Graph und der JavaFX UI vervollständigen das Training. Steigen auch Sie jetzt ein und verschaffen Sie sich in dem umfassenden Video-Training einen Überblick über den Einsatz, die Installation und die Programmierung von JavaFX-Oberflächen. 
@@ -17,4 +18,5 @@ Die Quellcodes zu dem Kurs sind nach Kapiteln strukturiert. In jedem der Ordner 
 ## Über den Autor - Ralph Steyer
 Sie finden [weitere Kurse von Ralph Steyer](https://www.linkedin.com/learning/instructors/ralph-steyer) auf **LinkedIn Learning**. Folgen Sie ihm auf [LinkedIn](https://www.linkedin.com/in/ralph-steyer-a69781/?trk=lil_instructor). 
 
-[lil-tn-url]: https://media-exp1.licdn.com/dms/image/C4E0DAQE9gESoCLnMlg/learning-public-crop_675_1200/0/1637084056656?e=1646956800&v=beta&t=rlOjwTLkwGdRCGIyIVLN5BiPO9qW4cgS1OKSpcc4bM8
+[lil-course-url]: https://www.linkedin.com/learning/javafx-grundkurs
+[lil-thumbnail-url]: https://cdn.lynda.com/course/2402565/2402565-1637084037258-16x9.jpg
